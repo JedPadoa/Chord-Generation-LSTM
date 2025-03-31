@@ -1,3 +1,5 @@
+This is a Long short-term memory (LSTM) neural network trained on the rs200 dataset to generate a set of symbolic chords (ex. I | V | IV | IV |) given an initial 4 - chord seed
+
 **Instructions to run**
 
 - create python venv with python 3.10
