@@ -1,3 +1,12 @@
+**Instructions to run**
+
+- create python venv with python 3.10
+- install required packages: *$pip install -r requirements.txt*
+- preprocessing and training have already been done, but if you wish to re-do them 
+      run rc_preprocess.py: *$ python rc_preprocess.py*
+      run training module: *$ python train.py*
+- generate chord sequenc: *$ python chordgen.py*\
+
 ### Completion report ###
 
 **Preprocessing**
@@ -20,11 +29,4 @@
 - Counts amount of chords present in sequence stops at given number (default 20)
 - prints generated progression
 
-**Instructions to run**
 
-- create python venv with python 3.10
-- install required packages: *$pip install -r requirements.txt*
-- preprocessing and training have already been done, but if you wish to re-do them 
-      run rc_preprocess.py: *$ python rc_preprocess.py*
-      run training module: *$ python train.py*
-- generate chord sequenc: *$ python chordgen.py*
